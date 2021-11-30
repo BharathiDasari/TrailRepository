@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/Weatherforecastapibharathi/apis/Weatherforecast",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bharathiserver/databases/bharathidatabase",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:WeatherforecastContext",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
